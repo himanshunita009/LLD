@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",                       // Adjust based on your environment
+    "module": "CommonJS",                     // Or "ESNext" if using ES modules
+    "outDir": "./dist",                       // Output directory
+    "rootDir": "./src",                       // Input source directory
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "exclude": ["node_modules", "dist"]
+}
