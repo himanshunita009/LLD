@@ -18,7 +18,7 @@ export class TicTacToe {
     }
     private async takeInput(): Promise<[number, number]> {
         return new Promise((resolve) => {
-            this.io.question("Enter row and column (e.g., 1 2): ", (answer) => {
+            this.io.question("Enter row and column (e.g., 1 2): ", (answer: any) => {
                 const [rowStr, colStr] = answer.trim().split(" ");
                 const row = parseInt(rowStr, 10);
                 const col = parseInt(colStr, 10);
